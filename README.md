@@ -1,11 +1,10 @@
-<p align="center">![healthcare (3)](https://user-images.githubusercontent.com/56925599/115971768-9de31500-a54a-11eb-932e-d97a61671474.png)</p>
+![healthcare (3)](https://user-images.githubusercontent.com/56925599/115971768-9de31500-a54a-11eb-932e-d97a61671474.png)
+
+
 # PRIXILIUM
 
 
-
-
-
-## About Prixilium
+## <span style="color: blue;">About Prixilium</span>
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
