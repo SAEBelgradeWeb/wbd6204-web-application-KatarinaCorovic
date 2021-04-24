@@ -14,5 +14,12 @@ class DoctorController extends Controller
 
     }
 
+    public function view ()
+    {
+        return view('doctor');
+    }
+
+
+
 
 }

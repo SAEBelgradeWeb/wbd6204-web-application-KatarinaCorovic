@@ -1,11 +1,16 @@
-#intro {
-    background-image: url("/public/images/happy-patient.jpg");
-    height: 100vh;
+
+.bg-appointment img{
+    position:relative;
+    width:100%;
+    height:300px;
 }
 
 
+
 .page-title-area {
-    position: relative;
+    position: absolute;
+    top:130px;
+    left:600px;
     overflow: hidden;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -14,7 +19,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
-    background-color: #eaecf1;
 
 }
 
@@ -57,45 +61,32 @@ ul {
     font-size: 16px;
 }
 
-.patient-information h3 {
-    margin-bottom: 25px;
-}
 
-h3 {
+
+
+.patient-information h3 {
+    margin-bottom: 30px;
     font-size: 22px;
     line-height: 1.4;
-}
-
-.appointment-box .appointment-form .form-group .form-control {
-    padding: 10px 20px;
-    background-color: #fff;
-}
-
-.patient-information .checkbox-content .form-group span {
-    margin-left: 5px;
-}
-
-h3 {
     color: #222;
     font-weight: 700;
-}
-
-.patient-information .appointment-box {
-    position: unset;
+    text-align: center;
 }
 
 .appointment-forms-area{
-    text-align: right;
     margin-top:30px;
+    margin-bottom: 20px;
 
 }
 
-.appointment-form{
-    padding:30px;
-}
+.custom-select {
+    height:40px;
 
-.patient-information .appointment-box .appointment-form {
+}
+.patient-information {
     background-color: #ffffff;
+    padding:30px;
+    text-align: left;
 }
 
 
@@ -117,12 +108,19 @@ h3 {
 }
 
 .patient-information .checkbox-content .form-group {
-    margin-right: 0;
+    //margin-right: 0;
     margin-left: 15px;
     display: inline-block;
-    margin-bottom: 0;
+    //margin-bottom: 0;
     margin-right: 15px;
 }
+
+
+.checkbox-content{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
 
 
 .subscribe-area{

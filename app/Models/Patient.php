@@ -5,8 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Appointment extends Model
+class Patient extends Model
 {
     use HasFactory;
-    public $fillable = ['speciality', 'doctor', 'hospital', 'date_of_birth', 'comment'];
 }

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="bg-image">
+    <div class="bcg-image">
         <div class="bg-cover bg-center"><img class="img-fluid" src="{{ asset('images/happy-patient.jpg') }}" alt="Background"></div>
     </div>
 
@@ -9,20 +9,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6 single-feature">
-                    <div class="">
-                        <span>Emergency case</span>
+                    <div class="single">
+                        <a href="#"><span>Emergency case</span></a>
                         <img src="/images/first-aid-kit.png" alt="first-aid-kit">
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 single-feature">
-                    <div class="">
-                        <a href="appointment"><span>Request an appointment</span></a>
+                    <div class="single">
+                        <a href="/appointment"><span>Request an appointment</span></a>
                         <img src="/images/appointment.png" alt="appointment">
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 single-feature">
-                    <div class="">
-                        <span>Find a doctor</span>
+                    <div class="single">
+                        <a href="/doctor"><span>Find a doctor</span></a>
                         <img src="/images/doctor.png" alt="doctor">
                     </div>
                 </div>
@@ -34,7 +34,7 @@
 
     <!------------------------- Choose us area -------------------->
 
-   <section class="choose-us-area ptb-100">
+   <section class="choose-us-area">
        <div class="container">
 {{--           <div class="choose-us-shape">--}}
 {{--               <img src="{{ asset('images/choose-us-shape.png') }}" alt="">--}}
@@ -103,7 +103,7 @@
 
     <!---------------  services -------------->
 
-    <section class="our-services pt-100">
+    <section class="our-services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -532,7 +532,7 @@
     <!----------------- portfolio ----------->
 
 
-    <section class="our-portfolio-area pt-100 pb-70">
+    <section class="our-portfolio-area pt-100">
         <div class="container">
             <div class="row" style="margin-bottom: 50px;">
                 <div class="col-lg-6 col-md-6">

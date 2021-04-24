@@ -1,0 +1,30 @@
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    max-width: 750px;
+    margin: -5px auto 50px;
+    text-align: center;
+    position: relative;
+}
+
+.single-doctors {
+    transition: all ease .5s;
+    margin-bottom: 30px;
+}
+
+.section-title span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+    color: #13316e;
+    font-weight: 500;
+}
+
+.single-doctors .doctors-content {
+    background-color: #eaecf1;
+    padding: 30px;
+
+}

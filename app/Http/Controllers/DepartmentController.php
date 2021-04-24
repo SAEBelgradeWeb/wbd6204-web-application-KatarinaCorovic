@@ -6,5 +6,9 @@ use Illuminate\Http\Request;
 
 class DepartmentController extends Controller
 {
-    //
+    public function view ()
+    {
+        return view('doctors_report');
+    }
+
 }

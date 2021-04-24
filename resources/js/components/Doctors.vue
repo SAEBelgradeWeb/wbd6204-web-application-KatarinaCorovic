@@ -1,23 +1,24 @@
 <template>
     <div>
-        <h1>Doctors list</h1>
+        <h1>Doctors list 1</h1>
+        {{doctors}}
         <div v-for="doctor in doctors">
             {{doctor.name}} - {{doctor.department.title}}
         </div>
     </div>
-
 </template>
 
 <script>
     export default {
         data(){
             return{
-                doctors:[]
+                doctors: ''
             }
         },
         async mounted(){
             const result = await axios.get('/api/doctors');
             this.doctors = result.data;
+            console.log(this.doctors);
 
         }
     }

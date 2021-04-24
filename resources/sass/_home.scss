@@ -6,21 +6,21 @@ body {
 
 }
 
-.navbar{
-    background-color: red;
-}
-
-//
-//.bg-image img{
-//    margin:0;
-//    padding:0;
-//}
-
-h3{
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 700;
 }
 
+
+    //.bg-image img{
+    //    margin:0;
+    //    padding:0;
+    //}
+
+
+a{
+    text-decoration: none;
+}
 // -------------- appointment-------------
 
 .feature-appointment-area{
@@ -55,8 +55,8 @@ h3{
 
 
 .choose-us-area {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    //padding-top: 50px;
+    //padding-bottom: 50px;
     position: relative;
     z-index: 1;
 }
@@ -87,6 +87,14 @@ h3{
 
 //--------------appointment------------
 
+.feature-appointment-area .single a{
+    text-decoration: none;
+    color:white;
+}
+
+.feature-appointment-area .single a:hover{
+    color:blue;
+}
 
 
 .appointment-here-form {
@@ -117,10 +125,10 @@ h3{
 }
 
 
-.appointment-area.default-btn  {
-background-color: #13316E;
-color: white;
-}
+//.appointment-area.default-btn  {
+//background-color: #13316E;
+//color: white;
+//}
 
 .default-btn {
 transition: all ease .5s;
@@ -134,7 +142,7 @@ padding:10px;
 
 
 .our-services {
-margin-top: 150px;
+margin-top: 70px;
 position: relative;
 }
 

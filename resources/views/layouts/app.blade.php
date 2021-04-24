@@ -41,25 +41,28 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="../public/assets/favicon.png"/>
 
 </head>
 <body>
     <div id="app">
+        <doctors></doctors>
         <header>
             <div class="top-header">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-9 col-sm-8">
                             <ul class="header-left-content">
+                                <li class="logo"><a href="/home"><img src="/images/healthcare.png" alt="telephone"><span>Prixlium</span></a></li>
                                 <li class="phone vl">
                                     <i></i>
-                                    <h6>Call now</h6>
-                                    <h4><a href="">354-548965</a></h4>
+                                    <h4>Call now</h4>
+                                    <h3><a href="">354-548965</a></h3>
                                 </li>
                                 <img src="/images/call.png" alt="telephone">
                                 <li class="working-days vl">
-                                    <h6>Monday-Friday</h6>
-                                    <h4>08:00 AM - 08:00 PM</h4>
+                                    <h4>Monday-Friday</h4>
+                                    <h3>08:00 AM - 08:00 PM</h3>
                                 </li>
                                 <img src="/images/clock.png" alt="telephone">
                             </ul>
@@ -88,17 +91,11 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="/home">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li><a class="nav-link" href="appointment">Make an appointment</a></li>
-
-{{--                            <form class="d-flex">--}}
-{{--                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">--}}
-{{--                                <button class="btn btn-outline-success" type="submit">Search</button>--}}
-{{--                            </form>--}}
+                        <li><a class="nav-link" href="/appointment">Make an appointment</a></li>
+                        <li><a class="nav-link" href="/doctor">Doctors</a></li>
+                        <li><a class="nav-link" href="/doctors_report">Report</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -139,6 +136,7 @@
                 </div>
             </div>
         </nav>
+
 
 <!----------------------------------- main content------------------------------>
 

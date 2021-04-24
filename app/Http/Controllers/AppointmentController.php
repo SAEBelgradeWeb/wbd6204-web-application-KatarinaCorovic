@@ -24,18 +24,20 @@ class AppointmentController extends Controller
 
    }
 
-    public function AppointmentForm(Request $request)
+    public function appointmentForm(Request $request)
     {
+        dd(Appointment::create($request->all()));
+//            $this->validate($request, [
+//           'speciality' => 'required',
+//            'doctor' => 'required',
+//            'hospital' => 'required',
+//            'date_of_birth' => 'required',
+//            'comment' => 'required'
+//               'notes'=>required
 
-        $this->validate($request, [
-           'spaciality' => 'required',
-            'doctor' => 'required',
-            'hospital' => 'required',
-            'date_of_birth' => 'required',
-            'comment' => 'required'
-        ]);
+//        ]);
 
-        Contact::create($request->all());
+        Appointment::create($request->all());
 
         //
         return back()->with('success', 'Your form has been send successfuly.');
