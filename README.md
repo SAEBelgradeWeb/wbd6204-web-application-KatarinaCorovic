@@ -1,7 +1,7 @@
 ![healthcare (3)](https://user-images.githubusercontent.com/56925599/115971768-9de31500-a54a-11eb-932e-d97a61671474.png)
 
 
-# <p align="center">PRIXILIUM</p>
+# PRIXILIUM
 
 
 
