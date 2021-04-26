@@ -12,7 +12,7 @@
 {{--    <title>{{ config('app.name', 'Prixilium') }}</title>--}}
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+{{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -40,13 +40,14 @@
 
 
     <!-- Styles -->
+{{--    <link rel="shortcut icon" href={{ assets("favicon.png") }} />--}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="../public/assets/favicon.png"/>
+
+
 
 </head>
 <body>
     <div id="app">
-        <doctors></doctors>
         <header>
             <div class="top-header">
                 <div class="container">
@@ -129,6 +130,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+                                    <a class="dropdown-item" href="/patient">Profile</a>
                                 </div>
                             </li>
                         @endguest
@@ -164,7 +166,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="single-footer-widget">
-                        <h3>Our department</h3>
+                        <h3>Our departments</h3>
                         <ul>
                             <li><a href="">Pediatric clinic</a></li>
                             <li><a href="">Neurology</a></li>

@@ -37,20 +37,20 @@
                                 @csrf
                                 <div class="form-group">
                                     <label class="col-form-label form-control-label">Patient Name</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="patient_name">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Email Address</label>
-                                    <input type="text" class="form-control">
+                                    <input type="email" class="form-control" name="email_address">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Phone Number</label>
-                                    <input type="text" class="form-control">
+                                    <input type="number" class="form-control" name="phone_number">
                                 </div>
                                 <div class="form-group">
                                     <label for="">Date of Birth</label>
                                     <div class="input-group date" data-provide="datepicker" placeholder="Select a date">
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" name="date_of_birth">
                                         <div class="input-group-addon">
                                             <span class="glyphicon glyphicon-th"></span>
                                         </div>
@@ -58,23 +58,23 @@
                                 </div>
                                 <div class="form-group mb-4">
                                     <label for="">Country of Residence</label>
-                                    <select class="custom-select">
-                                        <option value>USA</option>
-                                        <option value>London</option>
-                                        <option value>United Kingdom</option>
-                                        <option value>United States</option>
-                                        <option value>Canada</option>
-                                        <option value>Australia</option>
-                                        <option value>California</option>
+                                    <select class="custom-select" name="country_of_residence">
+                                        <option value="USA">USA</option>
+                                        <option value="London">London</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="United States">United States</option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="California">California</option>
                                     </select>
                                 </div>
                                 <div class="checkbox-content">
                                     <div class="form-group">
-                                        <input type="checkbox" id="chb1">
+                                        <input type="checkbox" id="chb1" name="gender">
                                         <span>Male</span>
                                     </div>
                                     <div class="form-group">
-                                        <input type="checkbox" id="chb2">
+                                        <input type="checkbox" id="chb2" name="gender">
                                         <span>Female</span>
                                     </div>
                                 </div>

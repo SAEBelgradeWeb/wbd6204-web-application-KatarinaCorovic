@@ -1,0 +1,47 @@
+.our-portfolio-area .section-btn .default-btn{
+    font-size: 15px;
+}
+
+
+
+.single-portfolio {
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-portfolio .portfolio-content {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 30px;
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.single-portfolio .portfolio-content h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.section-btn {
+    right: unset;
+    left: 15px;
+
+}
+
+.section-btn {
+    margin-bottom: 50px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+
+}

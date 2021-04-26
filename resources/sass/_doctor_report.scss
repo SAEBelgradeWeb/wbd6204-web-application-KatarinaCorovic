@@ -30,26 +30,3 @@ form{
 }
 
 
-.report-title-area {
-    position: absolute;
-    top:130px;
-    left:530px;
-    overflow: hidden;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-
-
-}
-
-
-
-.report-title-area .report-title-content h2 {
-    margin-bottom: 15px;
-    color: #222;
-    font-size: 60px;
-}

@@ -3,27 +3,32 @@
     padding-bottom: 100px;
 }
 
-.section-title {
+.doctors-area .section-title {
     max-width: 750px;
-    margin: -5px auto 50px;
-    text-align: center;
+    margin:0 auto;
     position: relative;
+    text-align: center;
 }
 
-.single-doctors {
-    transition: all ease .5s;
-    margin-bottom: 30px;
-}
-
-.section-title span {
-    font-size: 16px;
-    display: block;
+.doctors-area .section-title span {
+    font-size: 20px;
     margin-bottom: 15px;
     color: #13316e;
     font-weight: 500;
 }
 
-.single-doctors .doctors-content {
+.doctor-list{
+    margin-top: 60px;
+}
+
+.single-doctor {
+    transition: all ease .5s;
+    margin-bottom: 30px;
+
+}
+
+
+.single-doctor .doctor-content {
     background-color: #eaecf1;
     padding: 30px;
 

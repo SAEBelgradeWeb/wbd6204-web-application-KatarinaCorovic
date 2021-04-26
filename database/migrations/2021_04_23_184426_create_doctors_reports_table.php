@@ -16,6 +16,8 @@ class CreateDoctorsReportsTable extends Migration
         Schema::create('doctors_reports', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('patient');
+            $table->string('report');
         });
     }
 

@@ -6,9 +6,16 @@ use Illuminate\Http\Request;
 
 class DepartmentController extends Controller
 {
-    public function view ()
+    public function departmentView ()
     {
-        return view('doctors_report');
+        return view('department');
+    }
+
+
+    public function index()
+    {
+        return Department::class->get();
+
     }
 
 }

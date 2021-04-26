@@ -22,7 +22,9 @@ class DepartmentFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'description' => $this->faker->realText(100),
+            'image' => $this->faker->imageUrl(),
+
         ];
     }
 }

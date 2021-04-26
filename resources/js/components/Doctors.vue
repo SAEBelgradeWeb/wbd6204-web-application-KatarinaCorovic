@@ -1,55 +1,36 @@
 <template>
     <div>
-        <h1>Doctors list 1</h1>
-        {{doctors}}
-        <div v-for="doctor in doctors">
-            {{doctor.name}} - {{doctor.department.title}}
+        <div class="col-lg-3 col-sm-6" v-for="doctor in doctors">
+            <div class="single-doctor">
+                <div class="doctors-img">
+                    <img :src="doctor.avatar"  alt="Doctor">
+                </div>
+                <div class="doctor-content">
+                    <h3>{{doctor.name}} - {{doctor.department.title}}</h3>
+                    <span>{{doctor.bio}}</span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        data(){
-            return{
+        data() {
+            return {
                 doctors: ''
             }
         },
-        async mounted(){
+
+        async mounted() {
             const result = await axios.get('/api/doctors');
             this.doctors = result.data;
             console.log(this.doctors);
 
-        }
+        },
+
     }
 </script>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--<template>-->
-<!--    -->
-<!--</template>-->
-
-<!--<script>-->
-<!--    export default {-->
-<!--        name: "Doctors.vue"-->
-<!--    }-->
-<!--</script>-->
-
-<!--<style scoped>-->
-
-<!--</style>-->

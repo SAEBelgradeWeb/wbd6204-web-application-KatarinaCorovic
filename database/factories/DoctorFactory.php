@@ -23,9 +23,10 @@ class DoctorFactory extends Factory
     {
         return [
             'name' => "Dr " . $this->faker->name,
-            'bio' => $this->faker->realText(300),
+            'bio' => $this->faker->realText(100),
             'avatar' => $this->faker->imageUrl(),
-            'department_id' => $this ->faker->numberBetween(1, 4),
+            'department_id' => $this->faker->numberBetween(1, 4),
+//            'role' => $this->randomElement(['doctor', 'patient']),
 
         ];
     }
