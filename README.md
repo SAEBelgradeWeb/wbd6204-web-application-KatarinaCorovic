@@ -14,13 +14,21 @@ Benefits of an online healthcare appliation:
 - Monetary-saving
 - Less exposure to the risk of virus infection
 
-##Тhe main idea:
+## Тhe main idea:
 
 Prixilium is based on two simple forms that the user/patient is able to send in order to make an appointment. When registered a user is provided two options on the home page to make an appointment and to find a doctor. Therefore, forms that enable the users to schedule an appointment and listing that show all the doctors available to perform examinations or advice, represent the logical part. 
 Regarding the doctor’s report functionalities are also established, but access is given to every user that logs in
 
 
-## Technologies and functionalities:
+## List of used technologies:
+
+- Laravel 8
+- Phpstorm
+- MYSQL
+- Vue.js
+- Bootstrap 5
+
+## Functionalities:
 
 The project was installed in Laravel - version 8 and developed in PhpStorm code editor. Back-end solutions were provided and performed by using Laravel documentation (Laravel, 2021). 
 
