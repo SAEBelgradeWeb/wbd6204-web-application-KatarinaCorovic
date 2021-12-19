@@ -5,7 +5,7 @@
 
 
 
-## About Prixilium:
+## About TSM:
 
 Prixilium is a healthcare application (Online Appointment Management System) that provides a service to make an online doctors appointment. Every patient that logins is able to make an appointment by filling in the form with required fields and sumbiting it. Then a doctor will make a report of the appointment which a patient will be able to see, but not edit. 
 
@@ -16,8 +16,13 @@ Benefits of an online healthcare appliation:
 
 ## Тhe main idea:
 
-Prixilium is based on two simple forms that the user/patient is able to send in order to make an appointment. When registered a user is provided two options on the home page to make an appointment and to find a doctor. Therefore, forms that enable the users to schedule an appointment and listing that show all the doctors available to perform examinations or advice, represent the logical part. 
-Regarding the doctor’s report functionalities are also established, but access is given to every user that logs in
+TSM is an Expert system for Traditional Serbian Medicine (abbreviation for the name) designed as a support tool for doctors. This version is very simplified as it represents the first Expert system for Traditional Serbian Medicine, that is why the creator wanted first to test the basic version, and if prooved acceptable, it would be upgraded.
+Here a user/patient is presented with three different forms that lead to the therapy. 
+1. The first form is a type of anamnesis, with personal information required to fill, this way the admin/doctor would have enough information to conclude the best therapy based on the type of life the patient is leading and his/her occupations.
+2. the Second form is Health Predisposition Questionnaire applied for users/patients all previous illnesses, level of physical activity, previous symptoms, health parameters such as body temperature, blood pressure, heart rate... 
+3. The third form is the actual Symptomatic Questionnaire, where the patient describes his problem in detail. 
+
+When this final form has been sent, it is being sent to the data. A list of symptoms and therapies has been entered previously on the admin page, and every symptom is an appropriate therapy match. This way when to form is sent, the user will get the appropriate medical therapy on the final page, 
 
 
 ## List of used technologies:
@@ -25,15 +30,17 @@ Regarding the doctor’s report functionalities are also established, but access
 - Laravel 8
 - Phpstorm
 - MYSQL
-- Vue.js
-- Bootstrap 5
+- Inerta
+- Tailwid
 
 ## Functionalities:
 
 The project was installed in Laravel - version 8 and developed in PhpStorm code editor. Back-end solutions were provided and performed by using Laravel documentation (Laravel, 2021). 
 
-For the design, I used Bootstrap by adding a Php artisan ui vue –auth extension in Laravel, which was optimal for this choice since Vue.js is using Bootstrap by default.
-Regarding JavaScript, Progressive JavaScript Framework Vue.js (Vue.js, 2021) served as a fitting framework. I used it in order to display listings of doctors and departments from my database. 
+For the design, I used tailwind by adding npm install -D tailwindcss postcss autoprefixer, npx tailwindcss init extension in Laravel, which was optimal for this choice to simplify designm but make it attractive and fucntional.
+Regarding JavaScript part, Inertia was used. Inertia seemed appropraite for building ES since a lot of 
+Inertia isn't a framework, nor is it a replacement to your existing server-side or client-side frameworks. Rather, it's designed to work with them. Think of Inertia as glue that connects the two. Inertia does this via adapters. We currently have three official client-side adapters (React, Vue, and Svelte) and two server-side adapters (Laravel and Rails).
+Progressive JavaScript Framework Vue.js (Vue.js, 2021) served as a fitting framework. I used it in order to display listings of doctors and departments from my database. 
 
  In the picture below are the examples of Doctors.vue and Departments.vue files I where the pattern scheme of the design was formatted, and with mounted method and Axios HTTP client I connected the front-part with my database. 
 
