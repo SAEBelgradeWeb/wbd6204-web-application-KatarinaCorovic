@@ -1,0 +1,120 @@
+body {
+
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 700;
+}
+
+
+    //.bg-image img{
+    //    margin:0;
+    //    padding:0;
+    //}
+
+
+a{
+    text-decoration: none;
+}
+// -------------- appointment-------------
+
+.feature-appointment-area{
+    background-color:#13316E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    font-size:23px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+
+.feature-appointment-area:hover {
+    height: 100%;
+
+}
+
+.feature-appointment-area.single-feature:hover {
+    background-color: white;
+    color: #13316E;
+
+}
+
+.appointment-here-form .default-btn {
+    width: 100%;
+}
+
+
+
+.feature-appointment-area .single a{
+    text-decoration: none;
+    color:white;
+}
+
+.feature-appointment-area .single a:hover{
+    color:blue;
+}
+
+
+.appointment-here-form {
+    background-color: #c6cfe1;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    padding: 50px;
+    //position: relative;
+    z-index: 2;
+    background-image: url(/public/images/book-now-shape.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.appointment-here-form button a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.input-group .form-control{
+    height:45px;
+}
+
+.form-control{
+    height:50px;
+}
+
+.appointment-here-form h3 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+}
+
+
+//.appointment-area.default-btn  {
+//background-color: #13316E;
+//color: white;
+//}
+
+.default-btn {
+transition: all ease .5s;
+text-align: center;
+background-color: #13316e;
+border-radius: 4px;
+color: white;
+position: relative;
+padding:10px;
+}
+
+
+
+
+
+
+
+
+
